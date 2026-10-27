@@ -1,0 +1,18 @@
+[package]
+name = "solana-zerolock"
+version = "0.1.0"
+edition = "2021"
+authors = ["Shreyan <shreyan010@gmail.com>"]
+description = "High-throughput lockless state sharding and zero-copy AMM engine for Solana"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/shreyan001/solana-zerolock"
+keywords = ["solana", "defi", "zero-copy", "amm", "lockless"]
+categories = ["cryptography::cryptocurrencies", "concurrency"]
+
+[dependencies]
+bytemuck = { version = "1.16", features = ["derive"] }
+sha2 = "0.10.9"
+thiserror = "1.0"
+
+[dev-dependencies]
+rand = "0.8"
